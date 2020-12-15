@@ -12,8 +12,8 @@ int main()
 		++number_of_words;
 		if (prev == cur)
 		{
-			cout << "Повторяющееся слово " << cur 
-				<< " место " << number_of_words 
+			cout << "Repated word " << cur 
+				<< " in position " << number_of_words 
 				<< "\n";
 		}
 		prev = cur;

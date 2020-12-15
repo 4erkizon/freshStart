@@ -4,20 +4,6 @@
 int main()
 {
 	setlocale(LC_CTYPE, "russian");
-	string prev = " ";
-	string cur;
-	int number_of_words = 0;
-	while (cin >> cur)
-	{
-		++number_of_words;
-		if (prev == cur)
-		{
-			cout << "Repeated word " << cur 
-				<< " in position " << number_of_words 
-				<< "\n";
-		}
-		prev = cur;
-	}
 	_getch();
 	return 0;
 }

@@ -19,6 +19,9 @@ int main()
 		prev = cur;
 
 
+
+
+
 	}
 	_getch();
 	return 0;

@@ -12,7 +12,7 @@ int main()
 		++number_of_words;
 		if (prev == cur)
 		{
-			cout << "Repated word " << cur 
+			cout << "Repeated word " << cur 
 				<< " in position " << number_of_words 
 				<< "\n";
 		}

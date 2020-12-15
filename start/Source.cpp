@@ -16,6 +16,7 @@ int main()
 				<< " место " << number_of_words 
 				<< "\n";
 		}
+		prev = cur;
 	}
 	_getch();
 	return 0;

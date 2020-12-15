@@ -4,7 +4,19 @@
 int main()
 {
 	setlocale(LC_CTYPE, "russian");
-	cout << "Привет мир!\n";
+	string prev = " ";
+	string cur;
+	int number_of_words = 0;
+	while (cin >> cur)
+	{
+		++number_of_words;
+		if (prev == cur)
+		{
+			cout << "Повторяющееся слово " << cur 
+				<< " место " << number_of_words 
+				<< "\n";
+		}
+	}
 	_getch();
 	return 0;
 }

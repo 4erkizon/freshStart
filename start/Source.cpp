@@ -17,6 +17,11 @@ int main()
 				<< "\n";
 		}
 		prev = cur;
+
+
+
+
+
 	}
 	_getch();
 	return 0;
